@@ -34,4 +34,9 @@ public class Transaction {
     {
         return this.type;
     }
+
+    public void showDetails()
+    {
+        System.out.println(this.type.toString() + "\t" + this.credits + "\t" + this.dateTime.toString() + "\t" + id);
+    }
 }
